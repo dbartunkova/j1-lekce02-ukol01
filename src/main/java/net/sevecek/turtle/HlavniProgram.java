@@ -9,8 +9,10 @@ public class HlavniProgram {
 
         zofka = new Turtle();
 
+        //nakresliN(zofka);
 
-        pismenoA(zofka);
+
+        //nakresliA(zofka);
 
         //nakresliD(zofka);
 
@@ -27,7 +29,15 @@ public class HlavniProgram {
 
     }
 
-    private void pismenoA(Turtle zofka) {
+    private void nakresliN(Turtle zofka) {
+        zofka.move(110.0);
+        zofka.turnRight(140.0);
+        zofka.move(140.0);
+        zofka.turnLeft(140.0);
+        zofka.move(110.0);
+    }
+
+    private void nakresliA(Turtle zofka) {
         zofka.penDown();
         zofka.turnRight(30.0);
         zofka.move(150.0);
